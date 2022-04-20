@@ -1,0 +1,18 @@
+{
+    "name": "lord/mvc",
+    "authors": [
+        {
+            "name": "amir tavakolian",
+            "email": "rezatva@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+}
